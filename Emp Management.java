@@ -56,7 +56,7 @@ class EmployeeManagementSystem {
     public void searchEmployee(int id) {
         for (Employee e : employees) {
             if (e.getId() == id) {
-                e.display(); // runtime polymorphism
+                e.display();
                 return;
             }
         }
@@ -159,3 +159,4 @@ public class Main {
         }
     }
 }
+
